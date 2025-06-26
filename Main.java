@@ -38,7 +38,7 @@ public class Main {
 		for (int suit = 0; suit < 4; suit++){
 			for (int card = 0; card < 13; card++){
 				deck[deckNum] = new Card(card + 1, suits[suit]);
-				System.out.print(deck[card].toString() + "  ");
+				System.out.print(deck[deckNum].toString() + "  ");
 				deckNum++;
 			}
 			System.out.println(); // Newline after every suit
